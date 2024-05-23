@@ -168,3 +168,12 @@ console.log(listaStudentiTotale)
 
 const targheStudenti = listaStudentiTotale.map((studente) => studente.name.toUpperCase());
 console.log(targheStudenti);
+
+// creo un array con solo gli studenti che hanno Grades superiore a 70
+
+const studentiGrades70 = listaStudentiTotale.filter((studente) => {
+    if (studente.Grades >= 70){
+        return true;
+    }
+});
+console.log(studentiGrades70);
