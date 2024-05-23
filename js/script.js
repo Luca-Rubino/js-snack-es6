@@ -177,3 +177,12 @@ const studentiGrades70 = listaStudentiTotale.filter((studente) => {
     }
 });
 console.log(studentiGrades70);
+
+// creo un array con solo gli studenti che hanno Grades superiore a 70 e id superiore a 120
+
+const studentiGrades70EId120 = listaStudentiTotale.filter((studente) => {
+    if (studente.Grades >= 70 && studente.id >= 120){
+        return true;
+    }
+});
+console.log(studentiGrades70EId120);
