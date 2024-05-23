@@ -34,3 +34,7 @@ const amadeus = ['tableName: Tavolo Vip', 'guestName: Amadeus', 'place: 10']
 // console.log(amadeus)
 const fiorello = ['tableName: Tavolo Vip', 'guestName: Fiorello', 'place: 11']
 // console.log(fiorello)
+
+// inserisco gli array ospiti in un array che li contenga
+const listaOspiti = [bradPitt,johnnyDepp,ladyGaga,cristianoRonaldo,georginaRodrigue,chiaraFerragni,georgeClooney,amalClooney,fedez,amadeus,fiorello]
+// console.log(listaOspiti)
