@@ -103,3 +103,61 @@ const listaInvitati = listaOspiti.map((ospite,indice)=>({
 }))
 
 console.log(listaInvitati)
+
+console.log('Snack 2')
+
+// SNACK 2
+// > Abbiamo un elenco degli studenti di una facoltà, identificati da id, Nome e somma totale dei loro voti di esame...
+// > 1. Per preparare l'aula di un nuovo corso, dobbiamo stampare le targhe col nome degli studenti: creare una lista contenente il loro nome tutto in maiuscolo, ad esempio (Marco della Rovere => MARCO DELLA ROVERE);
+// > 2. Dobbiamo creare una lista di tutti gli studenti che hanno un totale di voti superiore a 70
+// > 3. Dobbiamo creare una lista di tutti gli studenti che hanno un totale di voti superiore a 70 e id superiore a 120
+
+// Questo è l'elenco degli studenti:
+// Id  Name                    Grades
+// 213 Giuseppina della Rovere 78
+// 110 Paola Cortellessa       96
+// 250 Andrea Mantegna         48
+// 145 Gaia Borromini          74
+// 196 Luigi Grimaldello       68
+// 102 Piero della Francesca   50
+// 120 Francesca da Polenta    84
+
+
+// creo array con l'elenco totale degli studenti
+const listaStudentiTotale = [
+    {
+        id:213,
+        name:'Giuseppina della Rovere',
+        Grades:78
+    },
+    {
+        id:110,
+        name:'Paola Cortellessa ',
+        Grades:96
+    },
+    {
+        id:250,
+        name:'Andrea Mantegna',
+        Grades:48
+    },
+    {
+        id:145,
+        name:'Gaia Borromini',
+        Grades:74
+    },
+    {
+        id:196,
+        name:'Luigi Grimaldello',
+        Grades:68
+    },
+    {
+        id:102,
+        name:'Piero della Francesca',
+        Grades:50
+    },
+    {
+        id:120,
+        name:'Francesca da Polenta',
+        Grades:84
+    }
+]
