@@ -163,3 +163,8 @@ const listaStudentiTotale = [
 ]
 // stampo in console l'elenco totale degli studenti
 console.log(listaStudentiTotale)
+
+// creo un array che contenga l'elenco totale degli studenti e li stampi in console in maiuscolo
+
+const targheStudenti = listaStudentiTotale.map((studente) => studente.name.toUpperCase());
+console.log(targheStudenti);
