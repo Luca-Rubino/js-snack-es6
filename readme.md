@@ -52,3 +52,6 @@ Slack 2:
 
 - Creo array con l'elenco totale degli studenti
 - Stampo in console l'elenco totale degli studenti
+- Creo un array che contenga l'elenco totale degli studenti e li stampi in console in maiuscolo e stampo in console l'array
+- Creo un array con solo gli studenti che hanno Grades superiore a 70 e stampo in console l'array
+- Creo un array con solo gli studenti che hanno Grades superiore a 70 e id superiore a 120 e stampo in console l'array
