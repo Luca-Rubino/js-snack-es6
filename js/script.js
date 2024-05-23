@@ -161,3 +161,5 @@ const listaStudentiTotale = [
         Grades:84
     }
 ]
+// stampo in console l'elenco totale degli studenti
+console.log(listaStudentiTotale)
