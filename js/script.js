@@ -166,23 +166,26 @@ console.log(listaStudentiTotale)
 
 // creo un array che contenga l'elenco totale degli studenti e li stampi in console in maiuscolo
 
-const targheStudenti = listaStudentiTotale.map((studente) => studente.name.toUpperCase());
-console.log(targheStudenti);
+const targheStudenti = listaStudentiTotale.map((studente) => studente.name.toUpperCase())
+console.log(targheStudenti)
+
+// cambio parametro nome in listaStudentiTotale per mostrarli in Maiuscolo durante le ultime stampe
+listaStudentiTotale.nome = listaStudentiTotale.map((studente) => studente.name.toUpperCase())
 
 // creo un array con solo gli studenti che hanno Grades superiore a 70
 
 const studentiGrades70 = listaStudentiTotale.filter((studente) => {
     if (studente.Grades >= 70){
-        return true;
+        return true
     }
-});
-console.log(studentiGrades70);
+})
+console.log(studentiGrades70)
 
 // creo un array con solo gli studenti che hanno Grades superiore a 70 e id superiore a 120
 
 const studentiGrades70EId120 = listaStudentiTotale.filter((studente) => {
     if (studente.Grades >= 70 && studente.id >= 120){
-        return true;
+        return true
     }
-});
-console.log(studentiGrades70EId120);
+})
+console.log(studentiGrades70EId120)
