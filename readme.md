@@ -33,3 +33,22 @@ Id  Name                Grades
 196 Luigi Grimaldello       68
 102 Piero della Francesca   50
 120 Francesca da Polenta    84
+
+Svolgimento:
+
+Slack 1:
+
+- Creo gli array con i dati richiesti in forma di stringhe
+- Inserisco gli array ospiti in un array che li contenga
+- Creo ciclo for per convertile le stringhe in oggetti
+- Stampo la lista in console
+
+> Soluzione usando il metodo array.map
+- Creo gli array con i dati richiesti in forma di stringhe
+- Converto gli elementi stringa dell'array in elementi object con i dati richiesti
+
+
+Slack 2:
+
+- Creo array con l'elenco totale degli studenti
+- Stampo in console l'elenco totale degli studenti
