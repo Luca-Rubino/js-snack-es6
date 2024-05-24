@@ -83,3 +83,13 @@ Jenny       borsa     pink
 BONUS 2
 
 > Stampare in pagina oltre che in console!
+
+Svolgimento:
+
+SNACK 3
+
+- Creo array di oggetti con gli oggetti che hanno come proprietà: nome e peso.
+- Utilizzando destructuring per inserire in una costante i singoli oggetti
+- Uso il forEach per avere solo l'elenco del peso delle bici
+- Utilizzo il metodo filter per ottenere il parametro peso con il valore minore
+- Stampo in console qual'è la bici più leggera usando il console.log con template literal
