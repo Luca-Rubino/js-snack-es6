@@ -48,6 +48,8 @@ console.log(elencoPesoBici);
 // utilizzo il metodo filter per ottenere il parametro peso con il valore minore
 const biciPiuLeggera = listaBici.filter((biciclette) => biciclette.peso === Math.min(...elencoPesoBici));
 console.log(biciPiuLeggera);
+// stampo in console qual'è la bici più leggera usando il console.log con template literal
+console.log(`La bici piu' leggera e': ${biciPiuLeggera[0].nome} e pesa: ${biciPiuLeggera[0].peso} kg`);
 
 // SNACK 4
 // > Creare un array di oggetti di squadre di calcio. Ogni squadra avrà diverse proprietà: nome, punti fatti, falli subiti.
