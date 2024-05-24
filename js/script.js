@@ -166,7 +166,10 @@ console.log(listaStudentiTotale)
 
 // creo un array che contenga l'elenco totale degli studenti e li stampi in console in maiuscolo
 
-const targheStudenti = listaStudentiTotale.map((studente) => studente.name.toUpperCase())
+const targheStudenti = listaStudentiTotale.map((studente) => {
+    studente.name = studente.name.toUpperCase()// trasformare un UpperCase i nomi degli studenti
+    return studente.name
+})
 console.log(targheStudenti)
 
 // cambio parametro nome in listaStudentiTotale per mostrarli in Maiuscolo durante le ultime stampe
