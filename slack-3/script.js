@@ -45,6 +45,10 @@ listaBici.forEach((biciclette, i) => {
 });
 console.log(elencoPesoBici);
 
+// utilizzo il metodo filter per ottenere il parametro peso con il valore minore
+const biciPiuLeggera = listaBici.filter((biciclette) => biciclette.peso === Math.min(...elencoPesoBici));
+console.log(biciPiuLeggera);
+
 // SNACK 4
 // > Creare un array di oggetti di squadre di calcio. Ogni squadra avrà diverse proprietà: nome, punti fatti, falli subiti.
 // > Nome sarà l’unica proprietà da compilare, le altre saranno tutte settate a 0.
