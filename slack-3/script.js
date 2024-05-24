@@ -34,6 +34,17 @@ const [tarmacSl8,trekDomane,cannondale,gravelTurbo,gravelDiverge] = listaBici
 
 console.log(tarmacSl8.peso,trekDomane.peso,cannondale.peso,gravelTurbo.peso,gravelDiverge.peso)
 
+// uso il forEach per avere solo l'elenco del peso delle bici
+
+const elencoPesoBici = [] // lista con solo il peso di ogni singola bici
+
+listaBici.forEach((biciclette, i) => {
+    const {peso} = listaBici[i];
+    console.log({peso});
+    elencoPesoBici.push(peso)
+});
+console.log(elencoPesoBici);
+
 // SNACK 4
 // > Creare un array di oggetti di squadre di calcio. Ogni squadra avrà diverse proprietà: nome, punti fatti, falli subiti.
 // > Nome sarà l’unica proprietà da compilare, le altre saranno tutte settate a 0.
