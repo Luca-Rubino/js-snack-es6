@@ -3,6 +3,7 @@
 // > Ogni oggetto descriverà una bici da corsa con le seguenti proprietà: nome e peso.
 // > Stampare in console la bici con peso minore utilizzando destructuring e template literal
 
+console.log('Slack 3');
 
 // creo array di oggetti con gli oggetti che hanno come proprietà: nome e peso. 
 const listaBici = [
@@ -62,6 +63,8 @@ console.log(`La bici piu' leggera e': ${biciPiuLeggera[0].nome} e pesa: ${biciPi
 // > Nome sarà l’unica proprietà da compilare, le altre saranno tutte settate a 0.
 // > Generare numeri random al posto degli 0 nelle proprietà: punti fatti e falli subiti.Infine usando la destrutturazione creiamo un nuovo array i cui elementi contengono solo nomi e falli subiti e stampiamo tutto in console.
 
+console.log('slack 4');
+
 const squadre = [
     {
         nome: 'Juventus',
@@ -88,7 +91,39 @@ const squadre = [
         puntiFatti: 0,
         falliSubiti: 0
     },
-]
+];
+
+// genero numeri random per dichiarare il numero di punti fatti e falli subiti
+squadre.forEach(squadre =>{
+    squadre.puntiFatti = generatoreDiNumeriRandom(0,10);
+    squadre.falliSubiti = generatoreDiNumeriRandom(0,10);
+});
+
+console.log(squadre);
+
+// uso il metodo map per poter generare un l'array di oggetti con le proprietà e i valori dell'array precedenti con all'interno solo i nomi e falli subiti delle squadre
+const squadreConNomeEFalliSubiti = squadre.map(({
+    nome,
+    falliSubiti,
+}) => ({
+    nome,
+    falliSubiti
+}));
+
+console.log(squadreConNomeEFalliSubiti);
+
+
+// funzione per generare numeri random per i punti fatti e falli subiti
+
+/**
+ * 
+ * @param {number minimo possibile} min 
+ * @param {number massimo possibile} max 
+ * @returns 
+ */
+function generatoreDiNumeriRandom(min, max){
+    return Math.floor(Math.random()*(max-min)+1)+min;
+};
 
 
 // BONUS 1
